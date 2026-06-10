@@ -35,6 +35,7 @@ REDIS_HOST = os.getenv(
 REDIS_PORT = int(
     os.getenv("REDIS_PORT")
 )
+REDIS_PASSWORD = os.getenv("REDIS_PASSWORD")
 
 CACHE_EXPIRY = int(
     os.getenv("CACHE_EXPIRY")

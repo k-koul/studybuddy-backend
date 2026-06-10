@@ -62,16 +62,12 @@ init_db()
 
 app.add_middleware(
     CORSMiddleware,
-
     allow_origins=[
-        FRONTEND_URL,
+        "https://studybuddy-frontend-blush.vercel.app",
         "http://localhost:5173"
     ],
-
     allow_credentials=True,
-
     allow_methods=["*"],
-
     allow_headers=["*"],
 )
 
